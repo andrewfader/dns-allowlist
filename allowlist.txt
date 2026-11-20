@@ -1,0 +1,52 @@
+# DNS allowlist for a home router (Diversion hosted-allowlist format).
+# One domain per line. An entry un-blocks itself and all of its subdomains,
+# so hosting-provider suffixes (amazonaws.com, github.io, akamaihd.net,
+# akamaized.net, edgekey.net, wordpress.com, windows.net, ...) never go here.
+# Paste sites, URL shorteners and file drops never go here either.
+
+# Sites kept whole, including their ad and metrics subdomains
+apple.com
+bing.com
+google.com
+icloud.com
+linkedin.com
+reddit.com
+
+# Google ads and related, so sponsored results and shopping links open
+clickserve.dartsearch.net
+doubleclick.net
+google-analytics.com
+googleadservices.com
+googleapis.com
+pagead2.googlesyndication.com
+tpc.googlesyndication.com
+
+# CDNs, exact hosts only
+abs.twimg.com
+ajax.aspnetcdn.com
+ajax.cloudflare.com
+c0.wp.com
+cdn.jsdelivr.net
+cdn.sstatic.net
+cdnjs.cloudflare.com
+code.jquery.com
+fonts.gstatic.com
+i.ytimg.com
+i0.wp.com
+images-na.ssl-images-amazon.com
+m.media-amazon.com
+maxcdn.bootstrapcdn.com
+media.licdn.com
+pbs.twimg.com
+s.w.org
+s.ytimg.com
+s0.wp.com
+s1.wp.com
+ssl.gstatic.com
+static.licdn.com
+steamcdn-a.akamaihd.net
+store-images.s-microsoft.com
+use.fontawesome.com
+use.typekit.net
+www.gstatic.com
+yt3.ggpht.com
